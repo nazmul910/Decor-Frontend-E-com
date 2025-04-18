@@ -128,7 +128,9 @@ const toggle = () =>{
         </RouterLink>
       </div>
       <div class="flex justify-between items-center  ">
-        <a href="" class="text-gray-600">Collections</a>
+        <RouterLink to="/">
+          <a href="" class="text-gray-600">Collections</a>
+        </RouterLink>
       </div>
       <div class="flex justify-between items-center  ">
         <RouterLink to="/addproduct">
