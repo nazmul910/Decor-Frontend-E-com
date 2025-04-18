@@ -72,9 +72,9 @@ router.push('/addproduct');
 
   <section class="2xl:mx-40">
     <div>
-      <div class="flex justify-center md:justify-start space-x-4 pb-6">
+      <div class="grid grid-cols-3 gap-y-2 gap-x-1 md:flex md:justify-start md:space-x-4 pb-6">
         <button
-          class="uppercase font-semibold px-2 py-2 lg:px-6 bg-gray-200 hover:bg-gray-400 rounded"
+          class="uppercase font-semibold  py-2 md:px-2 lg:px-6 bg-gray-200 hover:bg-gray-400 rounded"
           @click="selectedCategory = category"
           v-for="category in ['all','Lighting','Gift','Bath','Window']"
           :key="category">

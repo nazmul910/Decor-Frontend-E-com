@@ -140,12 +140,6 @@ const sendOrder = async () =>{
             <button @click="{oderProduct(state); sendOrder();}" class="bg-gray-600 rounded-md text-white px-3 py-1 font-bold">Order</button>
           </div>
         </div>
-        <div v-if="state.orderedProduct && state.orderedProduct.products">
-          <div v-for="product in state.orderedProduct.products" :key="product._id">
-            <p>{{ product.title }} - {{ product.quantity }} pcs</p>
-          </div>
-          <p class="mt-2 font-semibold">Total Ordered Price: Tk {{ state.orderedProduct.total }}</p>
-        </div>
       </div>
 
 
