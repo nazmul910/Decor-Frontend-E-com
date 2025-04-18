@@ -9,7 +9,7 @@ const router = createRouter({
       component:()=> import('@/components/Home.vue')
     },
     {
-      path: '/dashboard',
+      path: '/dashboard-admin',
       name: 'DashBoard',
       component: ()=> import('@/views/pages/DashBoard.vue')
     },
